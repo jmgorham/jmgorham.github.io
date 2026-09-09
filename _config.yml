@@ -13,15 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jenna Gorham - Data Analyst Professional Portfolio
-email: jenna.m.gorham@gmail.com
+title: Jenna Gorham - Data Analytics Professional Portfolio
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Data analytics professional portfolio for Jenna Gorham, containing relevant
+  analytical projects demonstrating a range of relevant skills, including multiple
+  tools, analytical techniques, and soft skills including effective communication
+  and business insight.
 twitter_username: 
 github_username: jmgorham
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: aqua
 search: false
 
 # Build settings
@@ -60,32 +61,17 @@ plugins:
 author:
   name   : "Jenna Gorham"
   avatar : "/assets/images/headshot_photo.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "With a background in both computer science and mathematics, I bring a combination of statistical rigor and technological expertise to solve challenging problems in analytics and data science. I excel in translating raw data into actionable business-oriented insights and communicating results effectively with non-technical stakeholders to support data-driven decision making."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jmgorham/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/jmgorham"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
