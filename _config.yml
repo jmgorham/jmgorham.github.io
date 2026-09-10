@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   and business insight.
 twitter_username: 
 github_username: jmgorham
-minimal_mistakes_skin: aqua
+minimal_mistakes_skin: dark
 search: false
 
 # Build settings
@@ -61,10 +61,10 @@ plugins:
 author:
   name   : "Jenna Gorham"
   avatar : "/assets/images/headshot_photo.png"
-  bio    : "With a background in both computer science and mathematics, I bring a combination of statistical rigor and technological expertise to solve challenging problems in analytics and data science. I excel in translating raw data into actionable business-oriented insights and communicating results effectively with non-technical stakeholders to support data-driven decision making."
+  bio    : "I bring a combination of statistical rigor, technological expertise, and genuine curiosity to solve challenging problems in analytics and data science. I excel in translating raw data into actionable business insights and communicating results effectively through data storytelling and visualization."
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jmgorham/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -99,3 +99,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Hide feed
+atom_feed:
+  hide: true
