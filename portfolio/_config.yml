@@ -25,6 +25,7 @@ github_username: jmgorham
 minimal_mistakes_skin: dark
 search: false
 
+url: https://jmgorham.github.io
 baseurl: /portfolio
 classes: wide
 collection: portfolio
@@ -34,9 +35,9 @@ entries_layout: grid
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:title/
+permalink: ./:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: ./page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -65,7 +66,7 @@ plugins:
 
 author:
   name   : "Jenna Gorham"
-  avatar : "/assets/images/headshot_photo.png"
+  avatar : "./assets/images/headshot_photo.png"
   bio    : "I bring a combination of statistical rigor, technological expertise, and genuine curiosity to solve challenging problems in analytics and data science. I excel in translating raw data into actionable business insights and communicating results effectively through data storytelling and visualization."
   links:
     - label: "LinkedIn"
@@ -122,5 +123,5 @@ atom_feed:
 collections:
   portfolio:
     output: true
-    permalink: /:path/
+    permalink: ./:path/
 
